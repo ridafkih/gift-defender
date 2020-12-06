@@ -17,6 +17,8 @@ ___
 ### Project History
 This project's inception is based mostly around [the hackster.io project by David Escobar from 2016](https://www.hackster.io/daescobar/christmas-presents-intruder-detector-f10581). Unfortunately we couldn't get a hold of the exact equipment used for their version of the project in time for our usage. Thus, we decided to hit up Amazon, checked "One-Day Shipping," and hoped for the best.
 
+___
+### Our Application for Teaching
 We intended on using the Arduino Nano-based Christmas Present Intruder Detector in order to be a good starting project for teaching circuits to a classroom of children. It had to be simple and had to be able to be done quickly so we could be handing these things out left and right.
 
 We decided to omit the coding for for this project, students would put together the circuit with guidance of a teacher, and then walk up to a computer with pre-written code on it, they'd be walked through what the code was doing depending on technical literacy and age, allow them to test changing certain variables, such as the frequency and duration of the buzzer or the tolerance of the alarm. 
