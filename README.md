@@ -18,7 +18,7 @@ This project's inception is based mostly around [the hackster.io project by Davi
 
 We intended on using the Arduino Nano-based Christmas Present Intruder Detector in order to be a good starting project for teaching circuits to a classroom of children. It had to be simple and had to be able to be done quickly so we could be handing these things out left and right.
 
-We decided to omit the coding for this project from the learning process for this project, students would put together the circuit with guidance of a teacher, and then walk up to a computer with pre-written code on it, they'd be walked through what the code was doing depending on technical literacy and age, allow them to test changing certain variables, such as the frequency and duration of the buzzer or the tolerance of the alarm. 
+We decided to omit the coding for for this project, students would put together the circuit with guidance of a teacher, and then walk up to a computer with pre-written code on it, they'd be walked through what the code was doing depending on technical literacy and age, allow them to test changing certain variables, such as the frequency and duration of the buzzer or the tolerance of the alarm. 
 
 The students would then hit the compile button, and watch the code upload. They would then be handed a USB cable and would be allowed to plug it into a computer, or a plethora of USB ports around the classroom to test it out.
 
