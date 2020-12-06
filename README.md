@@ -13,6 +13,7 @@ The hardware requirements are listed below with their respective prices.
 * Buzzer ($0.89CAD)
 
 That's right, this project can be completed for **the total cost of $13.45CAD, or $10.52USD (12/05/2020)**.
+You could easily get the cost per unit down to $6USD or so, if you order from BangGood, but we didn't have time to wait for shipping from China.
 ___
 ### Project History
 This project's inception is based mostly around [the hackster.io project by David Escobar from 2016](https://www.hackster.io/daescobar/christmas-presents-intruder-detector-f10581). Unfortunately we couldn't get a hold of the exact equipment used for their version of the project in time for our usage. Thus, we decided to hit up Amazon, checked "One-Day Shipping," and hoped for the best.
@@ -30,7 +31,7 @@ ___
 
 The completed device's function is simple. First, the device is to be set down, and either plugged in or restarted. A 2.5 second calibration period occurs, in which acceleration measurements are taken to be recorded and averaged out. These become the acceleration values that are used to compare and detect whether the device is being moved too intensely.
 
-After that, constant measurements are being done, and if the device exceeds a % threshold increase that is too great, it will sound the buzzer. In the original project by David Escobar, a notification alert is sent to a device, however we couldn't get a hold of WiFi modules in time for the project and didn't have the means to prepare a WiFi connected guide for the children if they chose to take the devices home. 
+After that, constant measurements are being done, and if the device exceeds a % threshold increase that is too great, it will sound the buzzer. In the original project by David Escobar, a notification alert is sent to a device, however we couldn't get a hold of WiFi modules in time for the project and didn't have the means to prepare a WiFi connection guide for the children if they chose to take the devices home. 
 
 ___
 
