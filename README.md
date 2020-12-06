@@ -22,16 +22,16 @@ ___
 ### Our Application for Teaching
 We intended on using the Arduino Nano-based Christmas Present Intruder Detector in order to be a good starting project for teaching circuits to a classroom of children. It had to be simple and had to be able to be done quickly so we could be handing these things out left and right.
 
-We decided to omit the coding for for this project, students would put together the circuit with guidance of a teacher, and then walk up to a computer with pre-written code on it, they'd be walked through what the code was doing depending on technical literacy and age, allow them to test changing certain variables, such as the frequency and duration of the buzzer or the tolerance of the alarm. 
+We decided to omit the coding for this project, students would put together the circuit with guidance of a teacher, and then walk up to a computer with pre-written code on it, they'd then be walked through what the code was doing depending on the individual student's technical literacy and age, allow them to test changing certain variables, such as the frequency and duration of the buzzer or the tolerance of the alarm. 
 
 The students would then hit the compile button, and watch the code upload. They would then be handed a USB cable and would be allowed to plug it into a computer, or a plethora of USB ports around the classroom to test it out.
 
 ___
 ### Functionality
 
-The completed device's function is simple. First, the device is to be set down, and either plugged in or restarted. A 2.5 second calibration period occurs, in which acceleration measurements are taken to be recorded and averaged out. These become the acceleration values that are used to compare and detect whether the device is being moved too intensely.
+The completed device's function is simple. First, the device is to be set down, and either plugged in or restarted using the button on the device. A 2.5 second calibration period occurs, in which acceleration measurements are taken to be recorded and averaged out. These become the acceleration reference values that are used to compare and detect whether the device is being moved too intensely.
 
-After that, constant measurements are being done, and if the device exceeds a % threshold increase that is too great, it will sound the buzzer. In the original project by David Escobar, a notification alert is sent to a device, however we couldn't get a hold of WiFi modules in time for the project and didn't have the means to prepare a WiFi connection guide for the children if they chose to take the devices home. 
+After that, constant measurements are being done, and if the device exceeds a % threshold increase that deviates too large from the reference value, it will sound the buzzer. In the original project by David Escobar, a notification alert is sent to a device, however we couldn't get a hold of WiFi modules in time for the project and didn't have the means to prepare a WiFi connection guide for the children if they chose to take the devices home. 
 
 ___
 
